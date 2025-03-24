@@ -39,7 +39,6 @@ public class RatingManager {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(",");
-                System.out.println(parts[0]);
                 if (parts.length == 3) {
                     try {
                         String name = parts[0].trim();
